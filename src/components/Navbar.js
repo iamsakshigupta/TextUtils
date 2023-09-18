@@ -3,19 +3,23 @@ import PropTypes from 'prop-types'
 
 
 export default function Navbar(props) {
+  
   const toggleMode=()=>{
     const darkToggle= document.querySelector('.dark-toggle');
     darkToggle.addEventListener('click',(event)=>{
       event.preventDefault();
       document.documentElement.classList.toggle('dark')
+      
     })
   
 
   }
+  document.body.style.backgroundColor="#fffff";
  
   
   return (
-    <div className='navbar bg-cyan-50 dark:bg-slate-800 py-5 mb-2 '>
+    
+    <div className='navbar bg-cyan-50 dark:bg-slate-800 py-5 mb-0 '>
       <div className='max-w-7xl mx-auto box-border px-4'>
         <div className='flex justify-between items-center'>
           <a href="#"><p className='text-2xl font-semibold text-gray-800 dark:text-white tracking-wide'>{props.title}</p></a>
@@ -45,5 +49,5 @@ Navbar.propTypes = {
   title: PropTypes.string,
   about: PropTypes.string
 }
-
+document.body.style.backgroundColor="#fffff";
 

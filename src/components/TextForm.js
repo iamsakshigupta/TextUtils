@@ -26,13 +26,13 @@ export default function TextForm() {
   const [text,setText]= useState("Enter the Text");
 
   return (
-    <div className='form '>
-      <div className='max-w-7xl mx-auto box-border px-4'>
+    <div className='form dark:bg-dark-background'>
+      <div className='max-w-7xl h-screen overflow-y-hidden mx-auto box-border px-4'>
         <div>
           <p className="text-2xl text-left font-semibold mb-4 dark:text-white">Contact Us</p>
           <form>
             <div className="mb-4">
-              <textarea id="message" value={text} onChange={handleOnChange} name="message" rows="4" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" ></textarea>
+              <textarea id="message" value={text} onChange={handleOnChange} name="message" rows="4" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none  dark:bg-slate-700 dark:text-white" ></textarea>
             </div>
             <div className="text-left">
               <button className="bg-gray-600 text-white px-7 py-2 rounded hover:bg-cyan-600 focus:outline-none focus:bg-cyan-600 " onClick={handleUpClick}>
@@ -47,7 +47,7 @@ export default function TextForm() {
             </div>
           </form>
         </div>
-        <div className='my-7 text-left'>
+        <div className='mt-7 text-left'>
           <p className='text-2xl font-semibold mb-4 dark:text-white'>
             Your Text Summary
           </p>

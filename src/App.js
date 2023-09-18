@@ -3,9 +3,11 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 
 function App() {
+  
  
   return (
-    <div className="App dark:bg-slate-700 ">
+    
+    <div className="App ">
       
       <Navbar title="TextUtils"/>
       <TextForm></TextForm>
