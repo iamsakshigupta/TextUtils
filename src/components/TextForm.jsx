@@ -26,8 +26,8 @@ export default function TextForm() {
   const [text,setText]= useState("Enter the Text");
 
   return (
-    <div className='form dark:bg-dark-background'>
-      <div className='max-w-7xl h-screen overflow-y-hidden mx-auto box-border px-4'>
+    <div className='form bg-white dark:bg-dark-background'>
+      <div className='max-w-7xl h-screen mx-auto box-border px-4 py-2'>
         <div>
           <p className="text-2xl text-left font-semibold mb-4 dark:text-white">Contact Us</p>
           <form>
