@@ -26,10 +26,10 @@ export default function TextForm() {
   const [text,setText]= useState("Enter the Text");
 
   return (
-    <div className='form'>
+    <div className='form '>
       <div className='max-w-7xl mx-auto box-border px-4'>
         <div>
-          <p className="text-2xl text-left font-semibold mb-4">Contact Us</p>
+          <p className="text-2xl text-left font-semibold mb-4 dark:text-white">Contact Us</p>
           <form>
             <div className="mb-4">
               <textarea id="message" value={text} onChange={handleOnChange} name="message" rows="4" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" ></textarea>
@@ -48,13 +48,13 @@ export default function TextForm() {
           </form>
         </div>
         <div className='my-7 text-left'>
-          <p className='text-2xl font-semibold mb-4'>
+          <p className='text-2xl font-semibold mb-4 dark:text-white'>
             Your Text Summary
           </p>
-          <p className='text-l mb-3'>{text.split(" ").length} Words, {text.length} Characters</p>
-          <p className='text-l mb-3'>{0.008 * text.split(" ").length} Minutes taken to Read</p>
-          <p className='text-xl font-semibold mb-3'>Preview</p>
-          <p className='text-m'>{text}</p>
+          <p className='text-l mb-3 dark:text-slate-400'>{text.split(" ").length} Words, {text.length} Characters</p>
+          <p className='text-l mb-3 dark:text-slate-400'>{0.008 * text.split(" ").length} Minutes taken to Read</p>
+          <p className='text-xl font-semibold mb-3 dark:text-white'>Preview</p>
+          <p className='text-m dark:text-slate-400'>{text}</p>
         </div>
           
         </div>
