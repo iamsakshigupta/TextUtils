@@ -1,10 +1,7 @@
 .App {
   text-align: center;
 }
-.your-custom-styles-here {
-  background-color: #ff0000; /* Red background color */
-  color: #ffffff; /* White text color */
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
