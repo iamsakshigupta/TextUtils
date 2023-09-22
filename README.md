@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# TextUtils
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TextUtils is a web application that allows users to interact with text content in various ways. Whether you need to change the case of text, clear it, or view statistics about it, this tool provides a simple and user-friendly interface to perform these actions. Additionally, the project supports a dark mode for enhanced readability.
 
-## Available Scripts
+![TextUtils Screenshot](https://github.com/iamsakshigupta/TextUtils/blob/master/Screenshot%20(47).png)
+![TextUtils Dark Mode Screenshot](https://github.com/iamsakshigupta/TextUtils/blob/master/Screenshot%20(48).png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Change to Uppercase:** Clicking the "Change to Uppercase" button will convert all the text to uppercase letters.
+- **Change to Lowercase:** Clicking the "Change to Lowercase" button will convert all the text to lowercase letters.
+- **Clear:** The "Clear" button allows you to remove all the text from the input area.
+- **Text Statistics:** The tool provides valuable information about the entered text:
+  - Word Count: Displays the number of words in the text.
+  - Character Count: Shows the total number of characters, including spaces and special characters.
+  - Reading Time: Estimates the time required to read the text based on an average reading speed of 0.008 minutes per word.
+- **Dark Mode:** The application offers a dark mode, enhancing the user experience by reducing eye strain in low-light environments.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technology Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Frontend Framework: React
+- Styling: Tailwind CSS
+- State Management: React `useState`
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Users can enter or paste text into the input area. They can then apply transformations like changing the case or clearing the text. The tool provides instant feedback, allowing users to view text statistics and the transformed content. The dark mode option enhances readability in different lighting conditions.
 
-### `npm run build`
+## Why Use This Tool
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Quickly manipulate text without the need for external software or code.
+- Get insights into the structure and length of text content.
+- Enhance the user experience with a dark mode option.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Future Enhancements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We have plans to make TextUtils even more powerful and user-friendly in the future:
 
-### `npm run eject`
+- Implement additional text transformation options (e.g., title case, sentence case).
+- Add support for uploading text files.
+- Improve the user interface for better usability.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is open to contributions from the developer community. If you have ideas for enhancements or would like to contribute to the project, please feel free to submit pull requests or open issues on the project's GitHub repository.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+GitHub Repository: [TextUtils Repository](https://github.com/iamsakshigupta/TextUtils.git)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
